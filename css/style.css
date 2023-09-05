@@ -5,3 +5,28 @@
     box-sizing: border-box;
 }
 
+/* body */
+body{
+    background-color: #f6f8f9;
+}
+
+/* header */
+header{
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+header .inline-align{
+    display: inline;
+    vertical-align: middle;
+}
+
+h1{
+    text-shadow: 2px 0;
+    letter-spacing: 2px;
+}
+
+/* navigation bar */
+
+
