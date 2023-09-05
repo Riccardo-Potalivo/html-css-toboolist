@@ -5,6 +5,19 @@
     box-sizing: border-box;
 }
 
+/* sample */
+.white{
+    color: white;
+}
+
+.gray{
+    color: #ced3d7;
+}
+
+.bg-Blue{
+    background-color: #47adf1;
+}
+
 /* body */
 body{
     background-color: #f6f8f9;
@@ -15,6 +28,7 @@ header{
     background-color: white;
     padding: 10px;
     padding-left: 20px;
+    margin-bottom: 40px;
 }
 
 header .inline-align{
@@ -28,5 +42,26 @@ h1{
 }
 
 /* navigation bar */
+nav{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
+nav .inline-align{
+    display: inline;
+}
 
+nav div{
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+nav div.gray{
+    box-sizing: border-box;
+    border: solid 2px;
+}
