@@ -5,20 +5,6 @@
     box-sizing: border-box;
 }
 
-
-/* sample */
-.white{
-    color: white;
-}
-
-.gray{
-    color: #ced3d7;
-}
-
-.bg-Blue{
-    background-color: #47adf1;
-}
-
 /* body */
 body{
     background-color: #f6f8f9;
@@ -88,8 +74,67 @@ main{
     border-bottom-right-radius: 10px;
 }
 
-li.inline-align div{
-    display: inline;
+li.inline-block-align{
+    list-style: none;
+    margin: 15px 5px;
+}
+
+li.inline-block-align div{
+    display: inline-block;
     vertical-align: middle;
 }
 
+li .task{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    line-height: 15px;
+    text-align: center;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+li .task.done{
+    border: solid 1px #62bfa8;
+    color: #62bfa8;
+}
+
+li .task.fail{
+    border: solid 1px #e8443d;
+    color: #e8443d;
+}
+
+li .task-label{
+    font-size: 10px;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+
+}
+
+/* label palette */
+
+
+.editorial-label{
+    background-color: #45abea;
+}
+
+.q1-goals-label{
+    background-color: #9c72e4;
+}
+
+.recruiting-label{
+    background-color: #64c0a9;
+}
+
+.mobile-label{
+    background-color: #f29e33;
+}
+
+.website-label{
+    background-color: #d863a1;
+}
+
+.sales-label{
+    background-color: #b0c926;
+}
