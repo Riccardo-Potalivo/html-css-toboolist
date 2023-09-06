@@ -28,23 +28,25 @@ h1{
     letter-spacing: 2px;
 }
 
-/* navigation bar */
-nav{
+/* container setup */
+nav, main{
     background-color: white;
-    width: 80%;
+    width: 70%;
     margin: auto;
     padding: 15px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding-left: 40px;
+
 }
 
+/* navigation bar */
 nav div{
     display: inline;
     font-size: 12px;
     padding: 5px;
     min-height: 80px;
     border-radius: 5px;
-    margin-bottom: 5px;
 }
 
 nav #add-task{
@@ -65,14 +67,7 @@ div#divider{
 }
 
 /* main */
-main{
-    background-color: white;
-    width: 80%;
-    margin: auto;
-    padding: 15px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
+
 
 li.inline-block-align{
     list-style: none;
@@ -108,7 +103,7 @@ li .task-label{
     font-size: 10px;
     color: white;
     padding: 7px;
-    border-radius: 10px;
+    border-radius: 12px;
 
 }
 
